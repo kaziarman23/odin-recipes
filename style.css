@@ -1,0 +1,51 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 22px;
+}
+
+header{
+    background-color: aliceblue;
+    color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+.name{
+    text-align: center;
+}
+
+.name a{
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    display: block;
+    font-size: 1rem;
+}
+
+.image img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.history{
+    text-align: justify;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+}
+
+.ingredients{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align:justify;
+    
+}
+
+h2{
+    margin-bottom: 5px;
+}
