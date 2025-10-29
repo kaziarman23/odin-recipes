@@ -1,51 +1,96 @@
-*{
-    padding:0px;
-    margin:0px;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-html{
-    font-size: 22px;
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    background-color: aliceblue;
-    color: black;
-    padding: 5px;
-    text-align: center;
+/* Body styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
 }
 
-.name{
-    text-align: center;
+/* Center all content */
+body,
+ul,
+ol {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.name a{
-    text-decoration: none;
-    color:black;
-    padding: 10px;
-    display: block;
-    font-size: 1rem;
+/* Headings */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #222;
 }
 
-.image img{
-    display: block;
-    margin: 0 auto;
-    border-radius: 1rem;
+h2 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #444;
 }
 
-.history{
-    text-align: justify;
-    margin-top: 1rem;
-    letter-spacing: 1px;
+/* Links */
+a {
+  color: #0077cc;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
-.ingredients{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    text-align:justify;
-    
+a:hover {
+  color: #ff6600;
+  text-decoration: underline;
 }
 
-h2{
-    margin-bottom: 5px;
+/* Images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 10px auto 20px auto;
+  border-radius: 10px;
+}
+
+/* Lists */
+ul,
+ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* List items */
+li {
+  margin-bottom: 8px;
+}
+
+/* Recipe cards (index page links) */
+ul li a {
+  display: block;
+  padding: 10px 15px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+ul li a:hover {
+  background-color: #ff6600;
+  color: #fff;
+  border-color: #ff6600;
+}
+
+/* Home link on recipe pages */
+body > a {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
